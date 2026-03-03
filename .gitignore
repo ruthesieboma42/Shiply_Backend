@@ -1,0 +1,88 @@
+############################
+# Build folders
+############################
+bin/
+obj/
+out/
+publish/
+
+############################
+# User-specific files
+############################
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.DS_Store
+
+############################
+# Rider
+############################
+.idea/
+*.sln.iml
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# Visual Studio
+############################
+.vs/
+
+############################
+# Logs
+############################
+*.log
+logs/
+log/
+
+############################
+# ASP.NET Core
+############################
+appsettings.Development.json
+appsettings.Local.json
+
+############################
+# Environment files
+############################
+.env
+.env.*
+
+############################
+# EF Core
+############################
+Migrations/*Designer.cs
+*.db
+*.db-wal
+*.db-shm
+
+############################
+# NuGet
+############################
+*.nupkg
+packages/
+.nuget/
+
+############################
+# Node (if you later add frontend inside same repo)
+############################
+node_modules/
+dist/
+build/
+
+############################
+# OS generated files
+############################
+Thumbs.db
+ehthumbs.db
+
+############################
+# Test results
+############################
+TestResults/
+coverage/
+*.coverage
+*.trx

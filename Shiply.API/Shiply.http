@@ -1,0 +1,6 @@
+@Shiply_HostAddress = http://localhost:5014
+
+GET {{Shiply_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
