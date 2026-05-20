@@ -42,7 +42,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowReact", policy => {
-        policy.WithOrigins("http://localhost:5173", "http://localhost:3001", "http://localhost:3000", "https://shiply-frontend-three.vercel.app/")
+        policy.WithOrigins("http://localhost:5173", "http://localhost:3001", "http://localhost:3000", "https://shiply-frontend-three.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
